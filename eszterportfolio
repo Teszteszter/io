@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eszter Tarján – Data Engineer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f5f9;
+      color: #1e293b;
+    }
+    header {
+      background: linear-gradient(120deg, #0f172a, #1e3a8a);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+    }
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #38bdf8;
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+    }
+    header h1 {
+      margin-top: 0;
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin: 0.5rem 0;
+    }
+    .content {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 1.75rem;
+      color: #0f172a;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 0.4rem;
+      margin-top: 3rem;
+    }
+    .project {
+      background: white;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #1e40af;
+    }
+    .project p.tags {
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+    .project a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-top: 0.5rem;
+      color: #0ea5e9;
+    }
+    .stack {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .stack span {
+      background-color: #e2e8f0;
+      color: #334155;
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    footer {
+      background: #0f172a;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 4rem;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Eszter Tarján">
+    <h1>Eszter Tarján</h1>
+    <p>Data Engineer | Cloud-Native Builder | Databricks Expert</p>
+    <p>Designing resilient pipelines & enabling teams to unlock the power of modern data platforms.</p>
+  </header>
+  <div class="content">
+    <h2>🚀 Featured Projects</h2>
+
+    <div class="project">
+      <h3>Real-time Tweet Sentiment Pipeline</h3>
+      <p>Built a real-time data ingestion and sentiment analysis pipeline using Apache Kafka and Spark Streaming. Tweets are processed and stored in PostgreSQL with a dashboard built in Superset.</p>
+      <p class="tags">Tags: Kafka, Spark Streaming, PostgreSQL, Superset</p>
+      <a href="#">GitHub Repo</a>
+      <a href="#">Architecture Diagram</a>
+      <a href="#">Demo Video</a>
+    </div>
+
+    <div class="project">
+      <h3>Delta Lakehouse Architecture</h3>
+      <p>End-to-end lakehouse built on Databricks and Delta Lake with dbt for data transformations and orchestrated via Airflow. Delivered on AWS with proper access controls and logging.</p>
+      <p class="tags">Tags: Databricks, Delta Lake, dbt, Airflow, AWS</p>
+      <a href="#">GitHub Repo</a>
+      <a href="#">Presentation Slides</a>
+    </div>
+
+    <div class="project">
+      <h3>CI/CD for Data Infrastructure</h3>
+      <p>Created a reusable CI/CD pipeline to deploy BigQuery datasets and Cloud Composer DAGs via Terraform and GitHub Actions. Reduced manual deployment errors by 80%.</p>
+      <p class="tags">Tags: GCP, BigQuery, Terraform, GitHub Actions, CI/CD</p>
+      <a href="#">GitHub Repo</a>
+    </div>
+
+    <h2>🛠️ Tech Stack</h2>
+    <div class="stack">
+      <span>Python</span><span>SQL</span><span>Apache Spark</span><span>Kafka</span><span>Airflow</span><span>Databricks</span>
+      <span>dbt</span><span>Docker</span><span>GCP</span><span>AWS</span><span>Terraform</span><span>Superset</span>
+    </div>
+
+    <h2>👋 About Me</h2>
+    <p>I’m a data engineer based in Budapest with a passion for simplifying complex data systems. I specialize in helping organizations transition to scalable, modern data architectures — combining engineering, enablement, and strategic thinking. Outside of work, I enjoy writing, traveling, and helping tech teams unlock their full potential.</p>
+
+    <h2>📨 Contact</h2>
+    <p>Email: <a href="mailto:eszter.tarjan@example.com">eszter.tarjan@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/esztertarjan">linkedin.com/in/esztertarjan</a></p>
+    <p>GitHub: <a href="https://github.com/esztertarjan">github.com/esztertarjan</a></p>
+  </div>
+  <footer>
+    <p>© 2025 Eszter Tarján • Built with 💙 and HTML</p>
+  </footer>
+</body>
+</html>
